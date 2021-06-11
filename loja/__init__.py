@@ -37,7 +37,7 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view='customerLogin'
 login_manager.needs_refresh_message_category='danger'
-login_manager.login_message = u"Faça seu login primeiro"
+login_manager.login_message = u"Faça seu login primeiro, ou crie uma conta Tech House"
 
 
 from loja.produto import routes
